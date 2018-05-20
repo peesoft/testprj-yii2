@@ -1,0 +1,146 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e02b6117baa174d265d0964a461b2bde",
+    "packages": [
+        {
+            "name": "peesoft/yii",
+            "version": "2.0.15.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peesoft/yii-framework.git",
+                "reference": "9c165f67207f80cf7113e88be847fad63c30213a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peesoft/yii-framework/zipball/9c165f67207f80cf7113e88be847fad63c30213a",
+                "reference": "9c165f67207f80cf7113e88be847fad63c30213a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-mbstring": "*",
+                "lib-pcre": "*",
+                "php": ">=5.4.0",
+                "yiisoft/yii2-composer": "~2.0.4"
+            },
+            "replace": {
+                "peesoft/yii2": "self.version"
+            },
+            "bin": [
+                "yii"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2018-05-16T20:49:56+00:00"
+        },
+        {
+            "name": "peesoft/yii2-coolext",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peesoft/yii2-coolext.git",
+                "reference": "6295d389a39f259f8451c54787d7ee32868c02b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peesoft/yii2-coolext/zipball/6295d389a39f259f8451c54787d7ee32868c02b9",
+                "reference": "6295d389a39f259f8451c54787d7ee32868c02b9",
+                "shasum": ""
+            },
+            "require": {
+                "peesoft/yii2": "2.0.15.1"
+            },
+            "bin": [
+                "src/bin/cool.php"
+            ],
+            "type": "yii2-extension",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "SilverFire - Dmitry Naumenko",
+                    "email": "d.naumenko.a@gmail.com"
+                }
+            ],
+            "time": "2018-05-20T06:47:04+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-composer",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-composer.git",
+                "reference": "163419f1f197e02f015713b0d4f85598d8f8aa80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/163419f1f197e02f015713b0d4f85598d8f8aa80",
+                "reference": "163419f1f197e02f015713b0d4f85598d8f8aa80",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "yii\\composer\\Plugin",
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\composer\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
+                }
+            ],
+            "description": "The composer plugin for Yii extension installer",
+            "keywords": [
+                "composer",
+                "extension installer",
+                "yii2"
+            ],
+            "time": "2018-03-21T16:15:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
